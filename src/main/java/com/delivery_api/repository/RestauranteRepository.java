@@ -1,7 +1,23 @@
 package com.delivery_api.repository;
 
-import com.delivery_api.entity.model.Restaurante;
-import org.springframework.data.repository.Repository;
+import java.util.List;
+import java.util.Optional;
 
-public class RestauranteRepository implements Repository<Restaurante, Long> {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+
+import com.delivery_api.entity.model.Restaurante;
+
+@Repository
+public interface RestauranteRepository extends JpaRepository <Restaurante, Long>{
+    // Buscar por nome
+    Optional<Restaurante> findByNome(String nome);
+
+    // Buscar restaurantes ativos
+    List<Restaurante> findByAtivoTrue();
+
+    // Buscar por categoria
+    List<Restaurante> findByCategoria(String categoria);
+
 }
