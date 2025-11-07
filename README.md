@@ -1,41 +1,37 @@
-# 🚚 Projeto Delivery API
+# Delivery Tech API
 
-API RESTful desenvolvida com **Spring Boot** para gerenciar um sistema de **delivery**, permitindo o cadastro e gerenciamento de pedidos, clientes e produtos.
+Sistema de delivery desenvolvido com Spring Boot e Java 21.
 
----
+## 🚀 Tecnologias
+- **Java 21 LTS** (versão mais recente)
+- Spring Boot 3.2.x
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
 
-## 🧱 Estrutura do Projeto
+## ⚡ Recursos Modernos Utilizados
+- Records (Java 14+)
+- Text Blocks (Java 15+)
+- Pattern Matching (Java 17+)
+- Virtual Threads (Java 21)
 
-**Tecnologias principais:**
+## 🏃‍♂️ Como executar
+1. **Pré-requisitos:** JDK 21 instalado
+2. Clone o repositório
+3. Execute: `./mvnw spring-boot:run`
+4. Acesse: http://localhost:8080/health
 
-- **Spring Boot 3.5.7**
-- **Java 21**
-- **Maven** como gerenciador de dependências  
-- **Spring Web** — para criação de endpoints REST  
-- **Spring Data JPA** — integração com banco de dados relacional via Hibernate  
-- **Spring Data JDBC** — suporte a consultas SQL diretas  
-- **Spring Boot DevTools** — recarregamento automático e ferramentas para desenvolvimento  
+## 📋 Endpoints
+- GET /health - Status da aplicação (inclui versão Java)
+- GET /info - Informações da aplicação
+- GET /h2-console - Console do banco H2
 
----
+## 🔧 Configuração
+- Porta: 8080
+- Banco: H2 em memória
+- Profile: development
 
-## 📁 Informações do Projeto
-
-| Configuração | Valor |
-|---------------|-------|
-| **Group** | `com.delivery_api` |
-| **Artifact** | `demo` |
-| **Name** | `Projeto_Delivery_API` |
-| **Descrição** | Demo project for Spring Boot |
-| **Package name** | `com.delivery_api` |
-| **Packaging** | `Jar` |
-| **Java Version** | `21` |
-
----
-
-## ⚙️ Como Executar o Projeto
-
-### 🧩 Pré-requisitos
-
-- **Java 21+** instalado  
-- **Maven 3.9+**  
-- Banco de dados (MySQL ou PostgreSQL)
+## 👨‍💻 Desenvolvedor
+[Seu Nome] - [Sua Turma]  
+Desenvolvido com JDK 21 e Spring Boot 3.5.7

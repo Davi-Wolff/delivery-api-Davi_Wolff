@@ -3,6 +3,6 @@ package com.delivery_api.entity.model;
 
 import jakarta.persistence.Entity;
 
-@Entity
+//@Entity
 public class Cliente {
 }
