@@ -1,23 +1,17 @@
 # Delivery Tech API
 
-Sistema de delivery desenvolvido com Spring Boot e Java 21.
+Sistema de delivery desenvolvido com Spring Boot e Java 23.
 
 ## 🚀 Tecnologias
-- **Java 21 LTS** (versão mais recente)
-- Spring Boot 3.2.x
+- **Java 23 LTS**
+- Spring Boot 3.5.7
 - Spring Web
 - Spring Data JPA
 - H2 Database
 - Maven
 
-## ⚡ Recursos Modernos Utilizados
-- Records (Java 14+)
-- Text Blocks (Java 15+)
-- Pattern Matching (Java 17+)
-- Virtual Threads (Java 21)
-
 ## 🏃‍♂️ Como executar
-1. **Pré-requisitos:** JDK 21 instalado
+1. **Pré-requisitos:** JDK 23 instalado
 2. Clone o repositório
 3. Execute: `./mvnw spring-boot:run`
 4. Acesse: http://localhost:8080/health
@@ -33,5 +27,5 @@ Sistema de delivery desenvolvido com Spring Boot e Java 21.
 - Profile: development
 
 ## 👨‍💻 Desenvolvedor
-[Seu Nome] - [Sua Turma]  
-Desenvolvido com JDK 21 e Spring Boot 3.5.7
+[Davi Wolff] - [estudante da UNISUL, Dib Mussi]  
+Desenvolvido com JDK 23 e Spring Boot 3.5.7
