@@ -1,12 +1,13 @@
 package com.delivery_api.repository;
 
 import org.springframework.stereotype.Repository;
-import com.delivery_api.entity.model.Cliente;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.delivery_api.entity.model.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository <Cliente, Long> {
