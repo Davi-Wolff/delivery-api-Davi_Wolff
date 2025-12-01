@@ -38,4 +38,5 @@ public interface RestauranteRepository extends JpaRepository <Restaurante, Long>
             "GROUP BY r.id, r.nome")
     List<RelatorioVendas> relatorioVendasPorRestaurante();
 
+    List<Restaurante> findByTaxaEntregaBetween(BigDecimal precoMinimo, BigDecimal precoMaximo);
 }
